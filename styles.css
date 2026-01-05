@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #222;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #111;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1, nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 5rem 2rem;
+}
+
+.hero {
+  height: 100vh;
+  padding-top: 6rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #000;
+  font-weight: 600;
+}
